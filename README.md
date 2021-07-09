@@ -1,2 +1,2 @@
-# personal-dotfiles
-dotfiles of my configured i3, fluxbox, openbox, and dwm
+# My Personal Dotfiles
+The dotfiles consist of my configured i3, fluxbox, openbox, and dwmblocks
