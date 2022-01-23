@@ -35,15 +35,15 @@ disk "/" {
 }
 
 load {
-        format = "%1min"
+        format = " 🎮 %1min"
 }
 
 memory {
-        format = " %used/%available"
+        format = " 💻  %used/%available"
         threshold_degraded = "1G"
-        format_degraded = "MEMORY < %available"
+        format_degraded = " 💻 < %available"
 }
 
 tztime local {
-        format = "📅 %a/%d/%m/%y | ⏱ %H:%M"
+        format = " 📅 %a/%d/%m/%y | ⏰ %H:%M"
 }
