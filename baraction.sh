@@ -50,7 +50,6 @@ SLEEP_SEC=0.25
 # So I would love to add more functions to this script but it makes the 
 # echo output too long to display correctly.
 while :; do
-    echo "+@fg=1;+@fg=6;+@bg=1; $(cpu) +@fg=2;+@fg=6;+@bg=2; $(mem) +@fg=3;+@fg=6;+@bg=3; $(vol) +@fg=4;+@fg=6;+@bg=4; $(bat) +@fg=5;+@fg=6;+@bg=5; $(date_time) +@fg=6;+@bg=5;"
+    echo "+@fg=1;+@fg=6;+@bg=1; $(cpu) +@fg=2;+@fg=6;+@bg=2; $(mem) +@fg=3;+@fg=6;+@bg=3; $(hdd) +@fg=5;+@fg=6;+@bg=5; $(date_time) +@fg=6;+@bg=5;"
 	sleep $SLEEP_SEC
 done
-
