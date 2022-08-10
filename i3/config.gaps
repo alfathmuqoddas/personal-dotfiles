@@ -194,3 +194,5 @@ bar
 
 for_window [class=".*"] border pixel 1
 exec "nitrogen --restore"
+gaps inner 4
+gaps outer 2
